@@ -1,5 +1,11 @@
 # 🌍 Air Quality Index (AQI) Checker – Arduino + MQ-135  
 
+## 📌 Project Status
+**Status:** Arduino sensor prototype.  
+This repository contains a working AQI-monitoring sketch and setup notes for an MQ-135-based air quality display model.
+
+---
+
 ## 📖 Project Overview  
 This project is an **Arduino-based AQI monitoring system** that measures air quality using the **MQ-135 gas sensor**.  
 The system displays real-time AQI values on an LCD screen and provides alerts using an LED and buzzer when air pollution levels exceed safe limits.  
