@@ -56,10 +56,15 @@ It is a simple yet effective way to raise awareness about air quality in homes, 
 
 ## 💻 Usage Instructions  
 1. Connect the circuit as per the wiring table.  
-2. Upload the provided Arduino sketch (`AQI_Checker.ino`) to your Arduino board.  
+2. Upload the provided Arduino sketch (`AQI_Monitor.ino`) to your Arduino board.  
 3. Power the system via USB or battery.  
 4. Observe AQI values on the LCD.  
 5. If AQI is poor, the system will automatically trigger **LED + Buzzer alerts**.  
+
+---
+
+## ⚠️ Calibration Note
+MQ-135 readings vary with sensor warm-up time, environment, and calibration. For accurate measurements, calibrate the sensor against known conditions before relying on AQI thresholds.
 
 ---
 
